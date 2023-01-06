@@ -1,0 +1,7 @@
+.errro-page-warper {
+    padding-top: 6rem;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

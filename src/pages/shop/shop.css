@@ -1,0 +1,37 @@
+.shop {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 3rem;
+    margin: 3rem;
+    padding-top: 2rem;
+}
+
+.hero-banner {
+    padding-top: 6rem;
+    background-color: #e9e1cb;
+}
+
+.banner-img {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:768px) {
+    .shop {
+        margin: 1rem;
+    }
+}
+
+
+/* //carousel */
+.thumbs-wrapper,
+.carousel-status {
+    display: none;
+}
